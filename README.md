@@ -16,7 +16,7 @@ Each side must be flashed individually.
 - Repeat for right half, but hold top right key while plugging it in
 
 # Mouse drift
-Boardsource has [docs](https://www.boardsource.xyz/docs/build_guides-unicorne) saying there may be issues with mouse drift. QMK Configurator doesn't support adding their suggested fix. Use the configurator to update the keymap, then paste the new json at https://keymap.zvecr.com/ and add the following to the json: 
+Boardsource has [docs](https://www.boardsource.xyz/docs/build_guides-unicorne) saying there may be issues with mouse drift. QMK Configurator doesn't support adding their suggested fix. Use the configurator to update the keymap, then paste the new json at https://compile.qmk.fm/ and add the following to the json: 
 ```json
     "config": {
         "features": {
